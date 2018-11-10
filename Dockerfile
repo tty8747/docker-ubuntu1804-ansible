@@ -4,7 +4,6 @@ LABEL maintainer="KeyboardInterrupt"
 # Install dependencies.
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       python-software-properties \
        software-properties-common \
        python-setuptools \
        python-pip \
